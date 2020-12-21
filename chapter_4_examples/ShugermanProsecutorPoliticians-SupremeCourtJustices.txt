@@ -1,0 +1,68 @@
+	Justice	Term Start/End	Party	State	Pres Appt	Other Offices Held	Relevant Prosecutorial Background
+40	William Strong	1870-1880	D/R	PA	Grant	US House, Supr Court of PA, elect comm for elec of 1876	lawyer
+41	Joseph P. Bradley	1870-1892	R	NJ	Grant	electoral commission for elec of 1876	lawyer, DA Solano county, 1866-70
+42	Ward Hunt	1873-1882	R	NY	Grant	NY House, NY Court of Appeals	lawyer
+43	Morrison Waite	1874-1888	R	OH	Grant	mayor of Maumee, OH, OH Sen	lawyer
+44	John Marshall Harlan	1877-1911	R	KT	Hayes	KT AG	lawyer
+45	William Burnham Woods	1880-1887	R	AL	Hayes	OH House, mayor of Newark, 5th Cir Court of Appeals judge	lawyer
+46	Stanley Matthews	1881-1889	R	OH	Garfield	US Sen	lawyer, US attny in OH, 1858-61 (era when US Attys had limited criminal jurisdiction
+47	Horace Gray	1882-1892	R	MA	Arthur	MA Supr Court	lawyer
+48	Samuel Blatchford	1882-1893	R	NY	Arthur	fed distr judge, 2nd Cir judge	lawyer
+49	Lucius Q. C. Lamar II	1888-1893	D	MS	Cleveland	GA House, US House for MS, US Sec of Interior, US Sen for MI	lawyer
+50	Melville Fuller	1888-1910	D	IL	Cleveland	IL House	lawyer
+51	David Josiah Brewer	1889-1910	R	KS	Harrison	local judge in KS, 8th Cir Court of Appeals, KS Supr Court	lawyer, city attorney for just one year (1869)
+52	Henry Billings Brown	1890-1906	R	MI	Harrison	Detroit circuit judge, US distr judge	lawyer, asst US attny, 1863-68
+53	George Shiras, Jr.	1892-1903	R	PA	Harrison	federal elector	lawyer
+54	Howell Edmunds Jackson	1893-1895	D	TN	Harrison	US Sen from TN, 6th Cir judge, TN House	lawyer
+55	Edward Douglass White	1894-1921	D	LA 	Cleveland/Taft	US Sen for LA, LA Sen	lawyer
+56	Rufus Wheeler Peckham	1895-1909	D	NY	Cleveland	NY Supr Court, NY Court of Appeals, dem nat conv	lawyer, Albany DA, 1869-72
+57	Joseph McKenna	1898-1925	R	CA	McKinley	US Attny Gen, US 9th Cir, US House for CA	
+58	Oliver Wendell Holmes, Jr.	1902-1932	R	MA	Roosevelt	MA Supr Court	lawyer
+59	William R. Day	1903-1922	R	OH	Roosevelt	US Asst Sec of State, Sec of State, US 6th Cir	lawyer
+60	William Henry Moody	1906-1910	R	MA	Roosevelt	US AG, US Sec of Navy, US House for MA	lawyer, US attny 1890-95, Lizzie Borden case
+61	Horace Harmon Lurton	1910-1914	??	TN	Taft	US 6th Cir, TN judge	lawyer
+62	Charles Evans Hughes	1910-1916	R	NY	Taft	NY gov, US Sec of State	lawyer
+63	Willis Van Devanter	1911-1937	??	WY	Taft	WY terr judge, 8th cir	lawyer, city attny 1887-88 (MINOR)
+64	Joseph Rucker Lamar	1911-1916	??	GA	Taft	GA House, GA Sup Court	lawyer
+65	Mahlon Pitney	1912-1922	R	NJ	Taft	US House for NJ, NJ Supr Court	lawyer
+66	James Clark McReynolds	1914-1941	D	TN	Wilson	US AG	lawyer
+67	Louis Brandeis	1916-1939	R	MA	Wilson		lawyer
+68	John Hessin Clarke	1916-1922	D	OH	Wilson	fed distr judge	lawyer
+69	William Howard Taft	1921-1930	R	OH	Harding	US Pres, US Sec of War, 6th Cir judge, prov gov of Cuba, Philip., US Solictor Gen, Cincinnati judge	lawyer, asst county pros (2 years, MINOR)
+70	George Sutherland	1922-1938	R	UT 	Harding	US House, US Sen, UT Sen	lawyer
+71	Pierce Butler	1923-1939	R	MN	Harding		lawyer, county attny 1893-96
+72	Edward Terry Sanford	1923-1930	R	TN	Harding	US Asst AG, fed distr judge	lawyer
+73	Harlan F. Stone	1925-1946	R	NY	Coolidge	US AG	lawyer
+62	Charles Evans Hughes	1930-1941	R	NY	Hoover	see above	see above
+74	Owen Roberts	1930-1945	R	PA	Hoover		asst DA 1903-06, Special Counsel, Teapot Dome scandal, 1924
+75	Benjamin Cardozo	1932-1938	??	NY	Hoover	NY Court of Appeals	lawyer
+76	Hugo Black	1937-1971	D	AL	Roosevelt	US Sen for AL	4 year terms as county prosecuting attny
+77	Stanley Forman Reed	1938-1957	D	KY	Roosevelt	KY House, Fed Farm Board	lawyer
+78	Felix Frankfurter	1939-1962	D	MA	Roosevelt		lawyer
+79	William O. Douglas	1939-1975	D	CT	Roosevelt	chairman of SEC	lawyer
+80	Frank Murphy	1940-1949	D	MI	Roosevelt	US AG, gov of MI, amb to Phil, Detroit mayor	lawyer, US attny - 1st to open a civil rights division
+81	James F. Byrnes	1941-1942	D	SC	Roosevelt	SC gov, Sec of State, US House, US Sen, director of offices	lawyer
+82	Robert H. Jackson	1941-1954	D	NY	Roosevelt	US AG, US Solictor Gen, NY Sen	lawyer
+83	Wiley Blount Rutledge	1943-1949	D	IA	Roosevelt	US Distr of COlumbia judge	lawyer
+84	Harold Hitz Burton	1945-1958	R	OH	Truman	US Sen, mayor of Columbus, OH House	lawyer
+85	Fred M. Vinson	1946-1953	D	KY	Truman	US Sec of Treas, US Court of Appeals for DC	lawyer, city attny
+86	Tom C. Clark	1949-1967	D	TX	Truman	US AG	lawyer, civil DA, DOJ for war risk
+87	Sherman Minton	1949-1956	D	IN	Truman	US Sen, US Court of Appeals 7th Cir	lawyer, asst to local county pros
+88	Earl Warren	1953-1969	R	CA	Eisenhower		Big time Alameda County prosecutor, Cal AG 
+89	John Marshall Harlan II	1955-1971			Eisenhower		AUSA for SDNY, Special Assistant Attorney General of New York. Significant prosecutions in NY during Prohibition. 
+90	William Brennan				Eisenhower		private practice, labor law, military 
+91	Charles Evans Whittaker						Corporate law
+92	Potter Stewart						private practice 
+93	Byron White						private practice
+94	Arthur Goldberg						labor lawyer
+95	Abe Fortas						private practice (Arnold & Fortas/Arnold & Porter)
+96	Thurgood Marshall						civil rights law
+97	Warren Burger						private practice
+98	Harry Blackmun						private practice, Mayo Clinic
+99	Lewis Powell						private practice, Virginia School Board
+100	William Rehnquist						private practice, Asst. AG
+101	John Paul Stevens						private practice, Greenberg Commission special prosecutor
+102	Sandra Day O'Connor						Asst AG, 1965-69, prosecutorial role, research further
+103	Antonin Scalia						private practice, academia
+104	Anthony Kennedy						private practice
+105	David Souter						Asst AG, significant prosecution
