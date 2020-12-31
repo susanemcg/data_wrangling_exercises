@@ -1,7 +1,5 @@
 # A simple example of reading data from a .xls file with Python, using the "xrld" library.
 
-
-
 # first, pip install the xlrd library: https://pypi.org/project/xlrd/2.0.1/
 # then, import the "xlrd" library
 import xlrd
@@ -48,15 +46,15 @@ for sheet_name in source_workbook.sheet_names():
     # converts the rows of `source_workbook` into a list that can be *iterated*, or looped, over
     # here's where you'll find most of the data accessing documentation:
     # https://xlrd.readthedocs.io/en/latest/api.html#xlrd-sheet
-    for row in current_sheet.get_rows():
+    for row_num, row in enumerate(current_sheet.get_rows()):
 
-        # because each row is already a list, we can just use the
+        # although each row is already a list, we want the *values* so we can use the
         # `writerow` recipe directly for our output file
         # a note that we'll find some serious funkiness in the "dates" This
         # produces. More on that here: https://xlrd.readthedocs.io/en/latest/dates.html
         # and how to handle it here (we'll do this later):
         # https://xlrd.readthedocs.io/en/latest/api.html#module-xlrd.xldate
-        output_writer.writerow(row)
+        output_writer.writerow(current_sheet.row_values(row_num))
 
     # just for good measure, let's close the `.csv` file we just wrote all that
     # data to...

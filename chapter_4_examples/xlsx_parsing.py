@@ -45,7 +45,7 @@ for sheet_num, sheet_name in enumerate(source_workbook.sheetnames):
     # the function `iter_rows()` is specific to the `openpyxl` library and
     # converts the rows of `source_workbook` into a list that can be *iterated*, or looped, over
     for row in current_sheet.iter_rows():
-        # because of the way that the `openpyxl` library works, if we try to just print the
+        # because the `openpyxl` library works, treats each cell as a `tuple` if we try to just print the
         # rows directly, we'll get sort of unhelpful cell locations, rather than the data values
         # they contain. So we need to make *another* loop, to go through every cell in every row
         # one at a time. We'll print both the cell location and the value here, though only the latter
