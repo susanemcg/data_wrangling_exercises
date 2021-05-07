@@ -15,6 +15,20 @@ Data sets should be downloaded/copied in the same folder as the Python file or n
 
 #### If you are using Google Colab
 
+There are two ways that you can load data files into Google Colab:
+
+1. Link directly to the copies of the data that I have made available via _my_ Google Drive account.
+2. Upload copies of the data files to your own Google Drive account
+
+
+Each of these options has tradeoffs. If you are short on Google Drive space, using option 2 will save you space on your own account and only require commenting/uncommenting some code in the provided Jupyter notebooks. On the other hand, if my shared copies disappear (always a possibility on the interwebs!), work that relies on option 1 will not be affected. You may also find option 1 more straightforward when substituting your own data sets into the example notebooks.
+
+##### Option 1: Link directly to shared data files
+
+
+
+##### Option 2: Using data stored on your own account
+
 You will need to upload the data files into a Google Drive folder **on your own account**. _Each time_ you open the notebook, you will need to "mount" your Google Drive folder in order to make the data available to your notebook:
 
 1. Open your target notebook in Google Colab.
