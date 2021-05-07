@@ -25,6 +25,7 @@ Each of these options has tradeoffs. If you are short on Google Drive space, usi
 
 ##### Option 1: Link directly to shared data files
 
+All of the notebooks provided in this repo can be opened and used in Google Colab (whether or not they contain the Colaboratory "bug" at the top). In most cases, you will need to can the notebook first and fully uncomment any cells that start with the line **UNCOMMENT BELOW TO USE WITH GOOGLE COLAB**. For this, I recommend highlighting the entire cell and then using the `Ctrl+/` shortcut, which will toggle comments on all selected lines.
 
 
 ##### Option 2: Using data stored on your own account
