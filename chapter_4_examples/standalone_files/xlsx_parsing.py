@@ -1,5 +1,8 @@
-# An example of reading data from a .xlsx file with Python, using the "openpyxl" library.
-# First, you'll need pip install the openpyxl library: https://pypi.org/project/openpyxl/
+# An example of reading data from a .xlsx file with Python, using the "openpyxl"
+# library. First, you'll need pip install the openpyxl library:
+# https://pypi.org/project/openpyxl/
+# The source data can be composed and downloaded from:
+# https://fred.stlouisfed.org/series/U6RATE
 
 # specify the particular "chapter" you want to import the "openpyxl" library
 # in this case, "load_workbook"
@@ -9,9 +12,10 @@ from openpyxl import load_workbook
 # to a `.csv`
 import csv
 
-# because this is a very specialized library, there are fewer functions that do more in one step
-# pass our source filename as an ingredient to the the openpyxl library's load_workbook "recipe"
-# and store the result in a variable called `source_workbook`
+# because this is a very specialized library, there are fewer functions, and
+# they do more in one step.  We'll start by passing  our source filename as an
+# ingredient to the openpyxl library's load_workbook "recipe", and we'll store
+# the result in a variable called `source_workbook`
 source_workbook = load_workbook(filename = 'fredgraph.xlsx')
 
 # an .xlsx workbook can have multiple sheets
@@ -43,13 +47,15 @@ for sheet_num, sheet_name in enumerate(source_workbook.sheetnames):
 
     # now, we need to loop through every row in our sheet
     # the function `iter_rows()` is specific to the `openpyxl` library and
-    # converts the rows of `source_workbook` into a list that can be *iterated*, or looped, over
+    # converts the rows of `source_workbook` into a list that can be
+    # *iterated*, or looped, over
     for row in current_sheet.iter_rows():
-        # because the `openpyxl` library works, treats each cell as a `tuple` if we try to just print the
-        # rows directly, we'll get sort of unhelpful cell locations, rather than the data values
-        # they contain. So we need to make *another* loop, to go through every cell in every row
-        # one at a time. We'll print both the cell location and the value here, though only the latter
-        # will be actually written to our new file
+        # the `openpyxl` library treats each cell as a `tuple`.
+        # if we try to just print the rows directly, we'll get sort of
+        # unhelpful cell locations, rather than the data values they contain.
+        # So we'll to make *another* loop to go through every cell in every row
+        # one at a time. We'll print both the cell location and the value here,
+        # though only the latter will be actually written to our new file
 
         # we'll create an empty list where we'll put the actual values of the cells in each row
         row_cells = []
@@ -61,13 +67,15 @@ for sheet_num, sheet_name in enumerate(source_workbook.sheetnames):
             print(cell, cell.value)
 
             # just add the values to our list, so we get a nice clean `.csv`
-            # `append` is a method/recipe that we can use on lists to add things to the end
+            # `append` is a method/recipe that we can use on lists
+            # to add things to the end
             row_cells.append(cell.value)
 
 
-        # notice that the code below is left-aligned with the `for cell in row` code above
-        # this means that it will only be run *after* all the cells in a given row have been
-        # gone through, with its values appended to our list
+        # notice that the code below is left-aligned with the
+        #`for cell in row` code above
+        # this means that it will only be run *after* all the cells in a given
+        #row have been gone through, with its values appended to our list
         # now we'll actually write these rows to the output file
         output_writer.writerow(row_cells)
 

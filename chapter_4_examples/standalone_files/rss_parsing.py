@@ -23,11 +23,9 @@ filename = "BBC News - Science & Environment XML Feed"
 # second argument "ingredient" is "rb" for "read bytes"
 xml_source_file = open(filename+".xml","rb")
 
-
 # pass our xml_source_file as an ingredient to the the lxml etree library's parse method
 # and store the result in a variable called `xml_doc`
 xml_doc = etree.parse(xml_source_file)
-
 
 # there is a lot of malformed xml out there! in order to make sure that
 # what looks like good xml actually *is*, we'll start by getting
@@ -44,7 +42,6 @@ if etree.iselement(document_root):
     # there is a "writer" recipe that lets us easily write `.csv`-formatted rows
     # we'll use this recipe to easily write rows, instead of reading them
     output_writer = csv.writer(output_file)
-
 
     # as always, we'll want to balance what we handle programmatically and what
     # we review visually. In looking at our data, it's clear that each article's
@@ -90,12 +87,10 @@ if etree.iselement(document_root):
                 # append the attribut name to our `tag_list` column headers
                 tag_list.append(attribute_name)
 
-
     # that whole `article_example` for loop was just to build `tag_list`
     # now that we're done, we'll write its contents to our output file as
     # column headers
     output_writer.writerow(tag_list)
-
 
     # now we want to grab *every* <item> elment in our file
     # so we use the `findall()` method instead of 'find()', as we did above

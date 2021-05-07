@@ -24,11 +24,9 @@ filename = "U6_FRED_data"
 # second argument "ingredient" is "rb" for "read bytes"
 xml_source_file = open(filename+".xml","rb")
 
-
 # pass our xml_source_file as an ingredient to the the lxml etree library's parse method
 # and store the result in a variable called `xml_doc`
 xml_doc = etree.parse(xml_source_file)
-
 
 # there is a lot of malformed xml out there! in order to make sure that
 # what looks like good xml actually *is*, we'll start by getting

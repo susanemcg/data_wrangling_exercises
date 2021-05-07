@@ -1,5 +1,6 @@
-# An example of reading data from a .ods file with Python, using the "pyexcel_ods" library.
-# First, you'll need pip install the openpyxl library: https://pypi.org/project/pyexcel-ods/
+# An example of reading data from an .ods file with Python, using the
+# "pyexcel_ods" library. First, you'll need to pip install the library:
+# https://pypi.org/project/pyexcel-ods/
 
 # specify the particular "chapter" you want to import the "pyexcel_ods" library
 # in this case, "get_data"
@@ -9,8 +10,9 @@ from pyexcel_ods import get_data
 # to a `.csv`
 import csv
 
-# because this is a very specialized library, there are fewer functions that do more in one step
-# pass our source filename as an ingredient to the the pyexcel_ods library's get_data "recipe"
+# because this is a very specialized library, there are fewer functions, and
+# they do more in one step.  We'll start by passing  our source filename as an
+# ingredient to the pyexcel_ods library's get_data "recipe"
 # and store the result in a variable called `source_workbook`
 source_workbook = get_data("fredgraph.ods")
 
