@@ -58,6 +58,6 @@ source_file = open("/content/drive/My Drive/data_wrangling_exercises/chapter_2_d
 
 The code will now point to the copy of the data that I have stored on Google Drive.
 
-This needs to be updated! Very a lot.
+Let's try this one more time.
 
 
